@@ -21,6 +21,8 @@ nav a:hover {
 }
 .book, .join{
     background-color: #BDE0FE;
+    text-decoration: none;
+    color: #000000;
 }
 .book:hover, .join:hover{
     background-color: #6eb1eb;
@@ -60,10 +62,4 @@ main section{
 #hero-img{
     width: 100%;
 }
-.book, .join{
-    text-decoration: none;
-    color: #000000;
-}
-footer a{
-    text-decoration: none;
-}
+
