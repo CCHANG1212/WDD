@@ -8,9 +8,9 @@ Fonts are separated by a | */
 /* TODO: Week 07 - The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in iLearn. You should have at least 2 colors but do not have to fill in all 4 if you do not need them. */
 :root {
   /* TODO: Week07 - change the values below to your colors from your palette */
-  --primary-color: #FFC8DD;
+  --primary-color: #ffffff;
   --secondary-color: #FFAFCC;
-  --accent1-color: #BDE0FE;
+  --accent1-color: #cbcbcb;
   --accent2-color: #A2D2FF;
 
   /* TODO: Week07 - change the values below to your chosen font(s). */

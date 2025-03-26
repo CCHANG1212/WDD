@@ -58,7 +58,7 @@ nav {
 }
 
 .blog-post, .events {
-    background-color: #bebdbd;
+    background-color: #cbcbcb;
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 8px;
@@ -81,7 +81,7 @@ h2 {
 }
 
 footer {
-    background: #2D3436;
+    background: #A2D2FF;
     color: white;
     padding: 30px 20px;
     margin-top: 50px;
@@ -105,7 +105,22 @@ footer {
 .social-media img {
     height: 30px;
 }
-
+.nav-menu {
+    overflow: hidden;
+  }
+  .nav-menu a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .nav-menu a:hover {
+    background-color: #cbcbcb;
+    color: rgb(255, 255, 255);
+  }
+  
 
 a[href="site-plan.html"] {
     color: white !important;
