@@ -121,6 +121,48 @@ footer {
     background-color: #97a4b9;
     color: white;
   }
+.grid-container {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.grid-item {
+    background-color: #cbcbcb;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    overflow: hidden; 
+}
+
+.grid-item a {
+    float: left;
+    width: 40%;
+    margin-right: 30px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.grid-item-text {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.grid-item h1 {
+    color: #333;
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    font-family: "Quintessential";
+}
+
+.grid-item p {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
 
 a[href="site-plan.html"] {
     color: white !important;
@@ -137,5 +179,14 @@ a[href="site-plan.html"] {
     }
     .logo img {
         height: 50px;
+    }
+    .grid-item a {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    .grid-item-text {
+        padding: 20px;
     }
 }
