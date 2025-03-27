@@ -105,17 +105,14 @@ footer {
 .social-media img {
     height: 30px;
 }
-.nav-menu {
-    overflow: hidden;
-  }
   .nav-menu a {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+  display: block; 
+  text-align: center; 
+  padding: 14px 16px; 
+  transition: all 0.3s ease; 
+  color: white; 
+  font-size: 25px; 
+}
   .nav-menu a:hover {
     background-color: #cbcbcb;
     color: rgb(255, 255, 255);
