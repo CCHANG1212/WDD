@@ -160,7 +160,7 @@ footer {
 .grid-item p {
     color: #666;
     line-height: 1.6;
-    margin: 0;
+    margin-top: 50px;
 }
 
 #apps {
